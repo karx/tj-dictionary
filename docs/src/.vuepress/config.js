@@ -53,6 +53,7 @@ module.exports = async () => {
             collapsable: false,
             children: [
               '',
+              'VISITED',
               ...allVerbs.map(eachVerb => [`/verbs/${eachVerb.verb}/`, eachVerb.verb]),
             ]
           }
