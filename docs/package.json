@@ -1,0 +1,24 @@
+{
+  "name": "tj-dictionary",
+  "version": "0.0.1",
+  "description": "Dictionary for TJ-ecosystem",
+  "main": "index.js",
+  "authors": {
+    "name": "kaaro",
+    "email": "kartik@edvanta.com"
+  },
+  "repository": "/tj-dictionary",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "googleapis": "^85.0.0"
+  }
+}
