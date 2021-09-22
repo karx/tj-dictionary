@@ -3,18 +3,18 @@
 </template>
 
 <script>
-import * as am4core from '@amcharts/amcharts4/core';
-import * as am4charts from '@amcharts/amcharts4/charts';
-import am4themesAnimated from '@amcharts/amcharts4/themes/animated';
-import { mapActions } from 'vuex';
+import * as am4core from "@amcharts/amcharts4/core";
+import * as am4charts from "@amcharts/amcharts4/charts";
+import am4themesAnimated from "@amcharts/amcharts4/themes/animated";
+import { mapActions } from "vuex";
 
 am4core.useTheme(am4themesAnimated);
 
 export default {
-  name: 'EventView',
+  name: "EventView",
   methods: {
     ...mapActions({
-      eventsDumpFetch: 'eventsDumpFetch',
+      eventsDumpFetch: "eventsDumpFetch",
     }),
   },
   mounted() {
@@ -34,10 +34,10 @@ export default {
     valueAxis.renderer.minWidth = 35;
 
     const series = chart.series.push(new am4charts.LineSeries());
-    series.dataFields.dateX = 'date';
-    series.dataFields.valueY = 'value';
+    series.dataFields.dateX = "date";
+    series.dataFields.valueY = "value";
 
-    series.tooltipText = '{valueY.value}';
+    series.tooltipText = "{valueY.value}";
     chart.cursor = new am4charts.XYCursor();
 
     const scrollbarX = new am4charts.XYChartScrollbar();
@@ -45,12 +45,11 @@ export default {
     chart.scrollbarX = scrollbarX;
 
     this.chart = chart;
-  },
-  created() {
+
     this.eventsDumpFetch();
     this.unsubscribe = this.$store.subscribe((mutation) => {
       // console.log({ mutation, state });
-      if (mutation.type === 'SET_EVENTS_RAW_LOG') {
+      if (mutation.type === "SET_EVENTS_RAW_LOG") {
         const { eventsRaw } = this.$store.state;
         // console.log(eventsRaw);
         const byday = {};
@@ -65,12 +64,17 @@ export default {
         const data = [];
         Object.keys(byday).forEach((eachCategoryKey, i) => {
           const eachCategory = byday[eachCategoryKey];
-          data.push({ date: new Date(eachCategory[0].timestamp.machineReadable), name: `name${i}`, value: eachCategory.length });
+          data.push({
+            date: new Date(eachCategory[0].timestamp.machineReadable),
+            name: `name${i}`,
+            value: eachCategory.length,
+          });
         });
         this.chart.data = data;
       }
     });
   },
+  created() {},
   beforeDestroy() {
     if (this.chart) {
       this.chart.dispose();
