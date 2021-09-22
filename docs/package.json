@@ -17,8 +17,14 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.22",
+    "@amcharts/amcharts4-geodata": "^4.1.21",
     "axios": "^0.21.4",
     "dotenv": "^10.0.0",
-    "googleapis": "^85.0.0"
+    "googleapis": "^85.0.0",
+    "sass": "^1.32.13",
+    "sass-loader": "^8.0.2",
+    "uuid": "^8.3.2",
+    "vuex": "^3.6.2"
   }
 }
