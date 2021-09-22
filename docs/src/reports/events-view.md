@@ -1,0 +1,3 @@
+## Events View
+
+<Reports-EventsView/>

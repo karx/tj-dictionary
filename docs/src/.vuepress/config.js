@@ -42,6 +42,10 @@ module.exports = async () => {
           link: '/guide/'
         },
         {
+          text: 'Reports',
+          link: '/reports/'
+        },
+        {
           text: 'Thought Jumper',
           link: 'https://thoughtjumper-client.netlify.app/'
         }
@@ -70,6 +74,16 @@ module.exports = async () => {
               'quests',
               'use-cases',
               'faqs',
+            ]
+          }
+        ],
+        '/reports/': [
+          {
+            title: 'Guide',
+            collapsable: false,
+            children: [
+              '',
+              'events-view'
             ]
           }
         ],
