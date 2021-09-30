@@ -46,6 +46,10 @@ module.exports = async () => {
           link: '/reports/'
         },
         {
+          text: 'Widgets',
+          link: '/widgets/'
+        },
+        {
           text: 'Thought Jumper',
           link: 'https://thoughtjumper-client.netlify.app/'
         }
@@ -84,6 +88,22 @@ module.exports = async () => {
             children: [
               '',
               'events-view'
+            ]
+          }
+        ],
+        '/widgets/': [
+          {
+            title: 'Widgets',
+            collapsable: false,
+            children: [
+              '',
+              '3d-viewer',
+              'books',
+              'explore',
+              'forcegraph',
+              'notes',
+              'wikidata',
+              'wolframalpha'
             ]
           }
         ],
