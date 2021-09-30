@@ -3,7 +3,7 @@ const axios = require('axios');
 
 async function getValueExchange() {
 	const spreadsheetId = '1M6zXNuEeGmE918FZS2Z-KWaXThuQYxsceXC1XB77nV0';
-	const sheetName = 'value_read';
+	const sheetName = 'Verb details';
 	let getEdSheet = await axios.request({
 		method: 'get',
 		url: process.env.VUE_APP_AXIOS_URI + '/custom/edvanta-sheet',
@@ -29,6 +29,12 @@ async function loadValueExchange() {
 			verb: row[0],
 			weight: row[1],
 			rubies: row[2],
+			description: row[3],
+			expected_value: row[4],
+			value_example: row[5],
+			user_by: row[6],
+			user_by_example: row[7],
+			canonicals: row[8],
 		});
 	});
 	console.log('Loaded Value Exchange');
