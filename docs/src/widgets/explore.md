@@ -1,6 +1,11 @@
 ---
 status: deployed
-
+tags:
+    - Wikipedia
+    - explore
+    - Data Vizualization
+    - Graph
+    - Widget
 ---
 
 ## Explore widget 

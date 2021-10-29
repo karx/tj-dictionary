@@ -1,3 +1,11 @@
+---
+status: deployed
+tags:
+    - Book
+    - Explore
+    - Read
+    - Widget
+---
 ## Gutenberg books
 
 Gutenberg books come from Gutenberg API. It is a platform for fetching books.
