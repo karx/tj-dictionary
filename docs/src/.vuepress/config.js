@@ -36,12 +36,12 @@ module.exports = async () => {
       lastUpdated: 'Last Updated',
       nav: [
         {
-          text: 'Verbs',
-          link: '/verbs/',
-        },
-        {
           text: 'Guide',
           link: '/guide/'
+        },
+        {
+          text: 'Verbs',
+          link: '/verbs/',
         },
         {
           text: 'Reports',
@@ -57,17 +57,6 @@ module.exports = async () => {
         }
       ],
       sidebar: {
-        '/verbs/': [
-          {
-            title: 'Verbs',
-            collapsable: false,
-            children: [
-              '',
-              'VISITED',
-              ...allVerbs.map(eachVerb => [`/verbs/${eachVerb.verb}/`, eachVerb.verb]),
-            ]
-          }
-        ],
         '/guide/': [
           {
             title: 'Guide',
@@ -80,6 +69,17 @@ module.exports = async () => {
               'quests',
               'use-cases',
               'faqs',
+            ]
+          }
+        ],
+        '/verbs/': [
+          {
+            title: 'Verbs',
+            collapsable: false,
+            children: [
+              '',
+              'VISITED',
+              ...allVerbs.map(eachVerb => [`/verbs/${eachVerb.verb}/`, eachVerb.verb]),
             ]
           }
         ],

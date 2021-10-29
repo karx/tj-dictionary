@@ -11,5 +11,5 @@ features:
   details: View recent activity based on verb
 - title: External Identifiers
   details: Schema.org, wikidata ontology, xapi
-footer: Made by kaaro with ❤️
+footer: Cogito, ergo sum 🔎
 ---
