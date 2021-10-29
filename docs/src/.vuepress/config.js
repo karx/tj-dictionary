@@ -118,6 +118,22 @@ module.exports = async () => {
     plugins: [
       '@vuepress/plugin-back-to-top',
       '@vuepress/plugin-medium-zoom',
+      ["vuepress-plugin-tags", {
+        type: 'rainbow',
+        selector: '.page .content__default h1',
+        rainbows: [
+          {
+            color: '#42b983',
+            border: '1px solid #e2faef',
+            backgroundColor: '#f0faf5',
+          },
+          {
+            color: '#42b983',
+            border: '1px solid #e2faef',
+            backgroundColor: '#f0faf5',
+          }
+        ]
+      }],
     ],
 
     async additionalPages() {
