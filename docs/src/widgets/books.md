@@ -5,15 +5,3 @@ It is a part of an exploratory mode and a kick starter. It helps the user to sta
 This widget fetches two types of books.
 - Books from different sources/platforms which fetches direct.
 - Books from our platform TJ which supports markdown format.
-
-**Gutenberg books**
-
-Gutenberg books come from Gutenberg API. It is a platform for fetching books.
-
-**Future Scope**
-- [ ] Combine book widget or Gutenberg book widget
-- [ ] Add filter(Date, etc.)
-- [ ] Search box
-- [ ] Books based on popularity
-- [ ] Recommended books
-- [ ] User can add their books to their private Walt
