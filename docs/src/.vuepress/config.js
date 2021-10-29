@@ -27,11 +27,13 @@ module.exports = async () => {
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
     themeConfig: {
-      repo: '',
-      editLinks: false,
-      docsDir: '',
-      editLinkText: '',
-      lastUpdated: false,
+      repo: 'https://gitlab.com/edvanta/gomad/thoughtjumper/tj-dictionary',
+      branch: 'main',
+      docsBranch: 'main',
+      editLinks: true,
+      docsDir: 'docs/src/',
+      editLinkText: 'Help us improve this page!',
+      lastUpdated: 'Last Updated',
       nav: [
         {
           text: 'Verbs',
