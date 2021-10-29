@@ -8,7 +8,7 @@ tags:
     - Graph
     - Widget
 ---
-## WikiData card
+# WikiData card
 
 Wiki data card is used to provide a piece of information about the entity which the user searched whether it is a person, place, animal, thing, etc. It divides the information and shows data into different fields. Which helps the user for a clear understanding of an entity. 
 
