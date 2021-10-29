@@ -27,19 +27,21 @@ module.exports = async () => {
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
     themeConfig: {
-      repo: '',
-      editLinks: false,
-      docsDir: '',
-      editLinkText: '',
-      lastUpdated: false,
+      repo: 'https://gitlab.com/edvanta/gomad/thoughtjumper/tj-dictionary',
+      branch: 'main',
+      docsBranch: 'main',
+      editLinks: true,
+      docsDir: 'docs/src/',
+      editLinkText: 'Help us improve this page!',
+      lastUpdated: 'Last Updated',
       nav: [
-        {
-          text: 'Verbs',
-          link: '/verbs/',
-        },
         {
           text: 'Guide',
           link: '/guide/'
+        },
+        {
+          text: 'Verbs',
+          link: '/verbs/',
         },
         {
           text: 'Reports',
@@ -55,17 +57,6 @@ module.exports = async () => {
         }
       ],
       sidebar: {
-        '/verbs/': [
-          {
-            title: 'Verbs',
-            collapsable: false,
-            children: [
-              '',
-              'VISITED',
-              ...allVerbs.map(eachVerb => [`/verbs/${eachVerb.verb}/`, eachVerb.verb]),
-            ]
-          }
-        ],
         '/guide/': [
           {
             title: 'Guide',
@@ -78,6 +69,17 @@ module.exports = async () => {
               'quests',
               'use-cases',
               'faqs',
+            ]
+          }
+        ],
+        '/verbs/': [
+          {
+            title: 'Verbs',
+            collapsable: false,
+            children: [
+              '',
+              'VISITED',
+              ...allVerbs.map(eachVerb => [`/verbs/${eachVerb.verb}/`, eachVerb.verb]),
             ]
           }
         ],
@@ -116,6 +118,22 @@ module.exports = async () => {
     plugins: [
       '@vuepress/plugin-back-to-top',
       '@vuepress/plugin-medium-zoom',
+      ["vuepress-plugin-tags", {
+        type: 'rainbow',
+        selector: '.page .content__default h1',
+        rainbows: [
+          {
+            color: '#42b983',
+            border: '1px solid #e2faef',
+            backgroundColor: '#f0faf5',
+          },
+          {
+            color: '#42b983',
+            border: '1px solid #e2faef',
+            backgroundColor: '#f0faf5',
+          }
+        ]
+      }],
     ],
 
     async additionalPages() {

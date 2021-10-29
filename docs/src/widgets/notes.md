@@ -1,4 +1,11 @@
-## Notes widget
+---
+status: deployed
+tags:
+    - Author
+    - Read
+    - Widget
+---
+# Notes widget
 
 A widget where you can add your notes(thoughts, ideas, positive thinking, etc.). In this widget, you can add notes by using two different methods, 
 

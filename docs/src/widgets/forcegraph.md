@@ -1,3 +1,13 @@
+---
+status: deployed
+tags:
+    - forcegraph
+    - three.js
+    - explore
+    - Data Vizualization
+    - Graph
+    - Widget
+---
 # Force graph widget
 
 A forced graph is a 3d visualization of your thoughts and events. When you are exploring something like you are doing authentication on web applications, while doing that, you add some notes, search for something, perform any activity, etc. So all your events with each connected node were represented by the force graph widget.
