@@ -13,3 +13,10 @@ It is a part of an exploratory mode and a kick starter. It helps the user to sta
 This widget fetches two types of books.
 - Books from different sources/platforms which fetches direct.
 - Books from our platform TJ which supports markdown format.
+
+## Summary
+- Ability to Search, Filter, Explore, Bookmark
+- Link your Thoughts together
+- supports eBooks, pdfs, Gutenberg (3rd Party), Markdown (Custom)
+- Qoute from a book
+ 
