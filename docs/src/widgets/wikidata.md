@@ -14,6 +14,10 @@ Wiki data card is used to provide a piece of information about the entity which 
 
 It shows multiple possible outcomes, also shows images. It has also linked with the primary information widget
 
+## Summary
+* Factual Information from (all) Open Sources
+> Base, gives context, confidence to explore further & substantiate
+
 **Future Scope**
  
 - [ ] Further extend for better information
