@@ -12,6 +12,8 @@ This is the Directory of all Widgets using in [ThoughtJumper](https://thoughtjum
 
 ## How to use this widget
 
+## Where is this widget placed
+
 ## External Widgets, that work well with this
 
 ```
