@@ -104,7 +104,7 @@ module.exports = async () => {
               'explore',
               'forcegraph',
               'notes',
-              'Search'
+              'Search',
               'wikidata',
               'wolframalpha'
             ]
