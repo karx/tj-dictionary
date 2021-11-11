@@ -6,14 +6,24 @@ tags:
     - Read
     - Widget
 ---
-# Gutenberg books
 
-Gutenberg books come from Gutenberg API. It is a platform for fetching books.
+## Gutenberg Books Widget
 
-**Future Scope**
-- [ ] Combine book widget or Gutenberg book widget
-- [ ] Add filter(Date, etc.)
-- [ ] Search box
-- [ ] Books based on popularity
-- [ ] Recommended books
-- [ ] User can add their books to their private Walt
+### About this Widget
+
+- By default, this widget is listed as a tab right next to the BookList widget in the middlemost top panel.
+- Books here are sourced using the Gutenberg API. Project Gutenberg is a library for free eBooks.
+- These books open in an iframe component, so other than the title, the book content doesn't manipulate other widgets.
+
+### How to use this Widget
+
+- Switch to the GutenbergBooks tab
+- Navigate to the book you want to read.
+
+### Future
+
+- Combine with the BookList widget
+- Filter books (by genre, date added, author, etc)
+- Search box(to search within the book)
+- Recommended books
+- Allowing users to add books to their private vault
