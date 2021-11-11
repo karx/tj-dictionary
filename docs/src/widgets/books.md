@@ -6,17 +6,34 @@ tags:
     - Read
     - Widget
 ---
-# Book widget 
+## Book List
 
-It is a part of an exploratory mode and a kick starter. It helps the user to start with something, two types of users are there to access the book widget, one with the goal and another without a goal, and goal setting is an important part of life. So if the user comes without any goal this widget can help the user to start and set their goals. Users can begin their journey by interacting with different content, searching for new things, etc. Books contain lots of knowledge, increase awareness which can help you to set your goals.
+### About this Widget
 
-This widget fetches two types of books.
-- Books from different sources/platforms which fetches direct.
-- Books from our platform TJ which supports markdown format.
+- By default, this widget opens in the middlemost top panel of TJ.
+- It fetches books from a specific Google Drive folder.
+- Can be used to read books
 
-## Summary
-- Ability to Search, Filter, Explore, Bookmark
-- Link your Thoughts together
-- supports eBooks, pdfs, Gutenberg (3rd Party), Markdown (Custom)
-- Qoute from a book
- 
+### How to use this Widget
+
+- To add books to the Google Drive folder:
+  - Convert the file into a markdown format. PDF can be converted to markdown [here](https://pdf2md.morethan.io/)
+  - Upload the file to [this Google Drive Folder](https://drive.google.com/drive/folders/15w1Q72DiUj7pskqKD0FYMElMhKUNx_Nn)
+
+### Other widgets, that work well with this
+
+- Selecting word(s) in the book triggers information prompts at Explore, ExploreDescription, TwitterComp, ThreeDModelViewer, WikiDataCard and WikiSnippet
+
+### Future Scope
+
+- Combine with the GutenbergBooks widget
+- Filter books (by genre, date added, author etc.)
+- Search box (to search within the book)
+- Recommended books
+- Users can add their books and share them with the public, people from their organization only or mark them private.
+- Mark books as 'to-read', 'interested-in' or 'favourite'
+- Marking the reading progress
+- Allowing readers to highlight text
+- Shows reviews from other readers
+- Allow readers to rate books
+- Supports .epub, .pdf and other such formats
