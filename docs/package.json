@@ -19,6 +19,7 @@
   "dependencies": {
     "@amcharts/amcharts4": "^4.10.22",
     "@amcharts/amcharts4-geodata": "^4.1.21",
+    "@braid/vue-formulate": "^2.5.2",
     "axios": "^0.21.4",
     "dotenv": "^10.0.0",
     "googleapis": "^85.0.0",
