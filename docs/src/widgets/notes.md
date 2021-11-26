@@ -1,51 +1,64 @@
 ## Notes widget
 
-The NotedItems widget allows you to save your thoughts and actions in the form of notes.
-
-### About this Widget
-
-- By default, the notes widget is listed in the top left panel of TJ.
-- Users can create their own thoughts. 
-- Useful information from other websites can be added as a note using 'Add to Note' option.
-- This widget lets users save content in different formats like images, text and can also embed Youtube videos.
-- Below the noted text, on the left corner, the users can see by whom the note was taken and at what time. On the right hand corner, they can click the 'go-to-source' button to jump to the source of that note.
-- Notes can be filtered user-wise.
-- There are three buttons on the right hand top corner:
-  - To add user's original thoughts as notes
-  - To refresh the list of notes
-  - To expand the view screen 
-- Users can view and delete anyone's notes.
-
-### How to use this Widget
-
-- To create an original thought:
-  - Click on the add thought icon to reveal the text box
-  - Type in your thought in the text box
-  - Click on the 'Add Note' button to publish your note
+The NotedItems widget shows the saved and drafted thoughts in a list format. It has a markdown-powered text editor for writing thoughts using basic HTML tags. To save useful information from external web pages like - text, image, and video, boost-ed extension will need to be installed.
 
 
-  ![New_Project__1_](https://gitlab.com/edvanta/go-mad/uploads/e908ca360a09d577c8f50a0c134a0f1a/New_Project__1_.png)
+### Interface
 
-- To save a thought/text from other website:
-  - Select the text that you want to add as a note
-  - Right click and select 'Add to Note' from the drop down list
-  - *Note:This function only works when the BoostEd extension is installed and logged into.*
+![Notes_Widget_Interface](uploads/327c1a4523305b3a56a57f726f936b1b/Details_Widget__1_.png)
 
-  ![Capture](https://gitlab.com/edvanta/go-mad/uploads/cb6d673570ef0115d2ad83bbf753d2d9/Capture.PNG)
+### Creating Notes
 
-- To add an image/Youtube video :
-  - Right click on the image/video
-  - Click on 'Add to Note' from the drop down list
+Here are the two ways for creating notes:
+
+#### From Text Area
+
+The text area, available for creating notes, is powered with marked.js, allowing usage of HTML tags. Here is the documentation on marked.js to understand all the HTML tags that can be used.
+
+- Click on the add note icon to reveal the text area (click on the same icon to collapse the text area)
+- Type in your note in the text area
+- Click on the 'Add Note' button to publish your note
+
+![Adding_Notes_via_Text_Area](uploads/cb80b506d9bce0d33e64206c8c928f47/Adding_Notes_via_Text_Area.webm)
+
+#### With Boost-ed Extension
+
+With Boost-ed extension, text, images and videos from external web pages can also be saved as notes.
+
+To save text as note from other website:
+- Select the text that you want
+- Right click and then select 'Add to Note' from the context menu
+
+![Adding_text_as_note_via_Boost-ed_Extension](uploads/ce2ff58466a8927be2685252d7b9c081/Adding_note_via_Boost-ed_Extension.webm)
+
+To save an image as note from other website:
+- Right click on the image
+- Select 'Add to Note' from the context menu
+
+![Adding_image_as_note_via_Boost-ed_Extension](uploads/5f8fe6bdbd0f401a76523bcf10bd5f21/Adding_image_as_a_note.webm)
+
+To save a YouTube video as note:
+- Visit the YouTube video page
+- Right click on the page, ensuring no text is selected and cursor is not on any image
+- Click on 'Add to Note' from the context menu
+
+![Adding_youtube_video_as_note_via_boosted_extension](uploads/526ada4f9a0a7b0a114b1414429c5a93/Adding_youtube_video_as_note_via_boosted_extension.webm)
 
 
-### Future 
+### Filtering Notes
 
-- More and better ways to filter content (by source, time, keywords)
+The filter allows filtering notes user-wise. To reset the filter select @All or click on the refresh icon.
+
+![Interface_of_Notes_Widget](uploads/8f41cc3483bb5f8b24706882ebc89017/Details_Widget__2_.png)
+
+
+### Future?
+
+- More and better ways to filter content (by source, time, keywords, content type, etc.)
 - Categorization of notes on the basis of visibility (private, organization, public)
 - Users will be able to delete their notes only
 - Users will be able to edit their notes after publishing them
 - Add a WYSIWYG-like editor option
 - Users will be able to download their notes
-- Notes will refresh automatically when a note is added or deleted
 - Images will be added as notes when dragged and dropped
 - Users will be able to reference their notes
