@@ -9,7 +9,7 @@ The NotedItems widget shows the saved and drafted thoughts in a list format. It 
 
 ### Creating Notes
 
-Here are the two ways for creating notes:
+Here are the two methods of creating notes:
 
 #### From Text Area
 
