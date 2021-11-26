@@ -49,9 +49,6 @@ To save a YouTube video as note:
 
 The filter allows filtering notes user-wise. To reset the filter select @All or click on the refresh icon.
 
-![Interface_of_Notes_Widget](https://gitlab.com/edvanta/gomad/thoughtjumper/tj-dictionary/-/wikis/uploads/8f41cc3483bb5f8b24706882ebc89017/Details_Widget__2_.png)
-
-
 
 ### Future?
 
