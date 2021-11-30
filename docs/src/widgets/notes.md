@@ -52,11 +52,13 @@ The filter allows filtering notes user-wise. To reset the filter select @All or 
 
 ### Future?
 
-- More and better ways to filter content (by source, time, keywords, content type, etc.)
-- Categorization of notes on the basis of visibility (private, organization, public)
-- Users will be able to delete their notes only
-- Users will be able to edit their notes after publishing them
-- Add a WYSIWYG-like editor option
-- Users will be able to download their notes
-- Images will be added as notes when dragged and dropped
-- Users will be able to reference their notes
+- Better filters e.g, source, time, keywords, content type, etc.
+- Allow users to delete only their notes
+- Categorisation functionality for configuring visibility of notes (private, organization and public are some of those categories)
+- Allow users to edit their published notes
+- WYSIWYG-like editor
+- Download notes
+- Drag & drop area for adding images as notes
+- Add references with notes
+- Preview notes
+- Different types of markdown support (code snippet, code highlight, etc.)
