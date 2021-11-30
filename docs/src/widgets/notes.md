@@ -58,7 +58,7 @@ The filter allows filtering notes user-wise. To reset the filter select @All or 
 - Allow users to edit their published notes
 - WYSIWYG-like editor
 - Download notes
-- Drag & drop area for adding images as notes
+- Drag & drop area for adding images
 - Add references with notes
 - Preview notes
 - Different types of markdown support (code snippet, code highlight, etc.)
