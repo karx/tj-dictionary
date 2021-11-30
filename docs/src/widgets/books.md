@@ -8,11 +8,8 @@ tags:
 ---
 ## Book List
 
-### About this Widget
+The BookList widget shows a collection of books, each converted in markdown format for better machine-readability.
 
-- By default, this widget opens in the middlemost top panel of TJ.
-- It fetches books from a specific Google Drive folder.
-- Can be used to read books
 
 ### How to use this Widget
 
