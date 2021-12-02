@@ -23,7 +23,7 @@ The BookList widget lists a collection of books, each converted in markdown form
 To add books:
   - Convert the file into a markdown format. PDF files can be converted to markdown using [this tool](https://pdf2md.morethan.io/)
   - Upload the file in [this Google Drive Folder](https://drive.google.com/drive/folders/15w1Q72DiUj7pskqKD0FYMElMhKUNx_Nn)
-  - share the book's cover image in PNG format with TJ Development Team (this is important because book's cover image is uploaded in a different assets folder at AWS)
+  - Share the book's cover image in PNG format with TJ Development Team (this is important because book's cover image is uploaded in a different assets folder at AWS)
 
 
 ### How to use this widget
