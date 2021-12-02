@@ -52,9 +52,10 @@ The filter allows filtering notes user-wise. To reset the filter select @All or 
 
 ### Future?
 
-- Better filters e.g, source, time, keywords, content type, etc.
+- Better filters e.g, category, source, time, keywords, content type, etc.
 - Allow users to delete only their notes
 - Categorisation functionality for configuring visibility of notes (private, organization and public are some of those categories)
+- Label notes
 - Allow users to edit their published notes
 - WYSIWYG-like editor
 - Download notes
@@ -62,3 +63,26 @@ The filter allows filtering notes user-wise. To reset the filter select @All or 
 - Add references with notes
 - Preview notes
 - Different types of markdown support (code snippet, code highlight, etc.)
+- Upload files
+- Capture real-time image, audio and video
+- Link notes to thoughts and thought tiles
+- Creat to-do list
+- Add a reminder
+- Custom canvas to create visual notes
+- Copy note
+- Search within notes
+- Pin notes
+- Sort notes by date created, date modified, no. of characters. etc.
+- Edit notes
+- Text highlighter
+- Embed components in notes
+- Reorder notes
+- Archive notes
+- Link with BookList widget to allow users to create notes while reading
+- Social Media sharing
+- Shareable Link
+- Add collaborators to edit same note
+- Different Views e.g, Grid and Gallery
+- Settings interface to personalise the view
+- Different note creation options: from template (to-do list, reminder, gallery, or project), textual, image, drawing, code, copy from existing note, etc.)
+- Predefined templates e.g, Title, Subtitle and Take a Note options for textual notes AND 
