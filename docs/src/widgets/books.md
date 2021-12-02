@@ -15,7 +15,7 @@ The BookList widget lists a collection of books, each converted in markdown form
 
 ### Interface
 
-![Interface_of_booklist_widget](uploads/e9933b780c761ad0846482973d0b02f7/Interface_of_booklist_widget.png)
+![Interface_of_booklist_widget](https://gitlab.com/edvanta/gomad/thoughtjumper/tj-dictionary/-/wikis/uploads/dd440dc18dcff681d776aa48b080d35d/Interface_of_booklist_widget.png)
 
 
 ### Adding books
@@ -28,7 +28,7 @@ To add books:
 
 ### How to use this widget
 
-Other than reading, one can select word(s), up to 4, so as to gain indepth knowledge. The word(s) selection triggers information prompts at Explore, ExploreDescription, TwitterComp, ThreeDModelViewer, WikiDataCard and WikiSnippet widgets.
+Other than reading, one can select word(s), up to 4, to gain indepth knowledge. The word(s) selection triggers information prompts at Explore, ExploreDescription, TwitterComp, ThreeDModelViewer, WikiDataCard and WikiSnippet widgets.
 
 
 ### Other widgets, that work well with this
@@ -47,7 +47,7 @@ Selecting word(s), up to 4, triggers information prompts in these widgets:
 
 - Combine with the GutenbergBooks widget
 - Filter options e.g, media type, genre, date added, author, topics, etc.
-- Review and commenting functionalities
+- Review, like and commenting functionalities
 - Sorting options e.g, popularity, views available, title (a-z), date published, creator, etc.
 - Search box (to search books and within the book)
 - Recommendation engine for suggesting relevant books
@@ -63,10 +63,11 @@ Selecting word(s), up to 4, triggers information prompts in these widgets:
 - Book reader
 - Bookmarking text, visuals or pages
 - Settings interface to personalise the view
-- Add assets
+- Book's assets section
 - Related / similar books section
 - Different book list views and book reading view
 - Statistics
 - Vault
 - Show/hide book info
 - RSS feeds
+- Zoom in/Zoom out
