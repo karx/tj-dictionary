@@ -15,7 +15,7 @@ The BookList widget lists a collection of books, each converted in markdown form
 
 ### Interface
 
-![Interface_of_booklist_widget](https://gitlab.com/edvanta/gomad/thoughtjumper/tj-dictionary/-/wikis/uploads/dd440dc18dcff681d776aa48b080d35d/Interface_of_booklist_widget.png)
+![Interface-of-book-list-widget](https://gitlab.com/edvanta/gomad/thoughtjumper/tj-dictionary/-/wikis/uploads/25f26797624d324fbd541d214880932f/Interface-of-book-list-widget.png)
 
 
 ### Adding books
