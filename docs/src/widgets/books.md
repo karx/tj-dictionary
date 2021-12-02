@@ -51,20 +51,20 @@ Selecting word(s), up to 4, triggers information prompts in these widgets:
 - Sorting options e.g, popularity, views available, title (a-z), date published, creator, etc.
 - Search box (to search books and within the book)
 - Recommendation engine for suggesting relevant books
+- Related / similar books section, while reading a book
 - Allow users to add their books and configure the visibility (private, organization and public are some of the options)
 - Mark books as 'to-read', 'interested-in' or 'favourite'
 - Flag books
 - Reading progress bar
 - Text highlighter and annotation options
 - Rating books
-- Support books in epub, pdf and other digital book formats
+- Support books in epub, pdf and other file formats
 - Sharing option
 - Topics directory interface
 - Book reader
 - Bookmarking text, visuals or pages
 - Settings interface to personalise the view
 - Book's assets section
-- Related / similar books section
 - Different book list views and book reading view
 - Statistics
 - Vault
