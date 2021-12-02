@@ -43,7 +43,7 @@ Selecting word(s), up to 4, triggers information prompts in these widgets:
 - WikiSnippet
 
 
-### Future Scope
+### Future?
 
 - Combine with the GutenbergBooks widget
 - Filter options e.g, media type, genre, date added, author, topics, etc.
