@@ -6,31 +6,67 @@ tags:
     - Read
     - Widget
 ---
+
+
 ## Book List
 
-The BookList widget shows a collection of books, each converted in markdown format for better machine-readability.
+The BookList widget lists a collection of books, each converted in markdown format for efficient machine-readability.
 
 
-### How to use this Widget
+### Interface
 
-- To add books to the Google Drive folder:
-  - Convert the file into a markdown format. PDF can be converted to markdown [here](https://pdf2md.morethan.io/)
-  - Upload the file to [this Google Drive Folder](https://drive.google.com/drive/folders/15w1Q72DiUj7pskqKD0FYMElMhKUNx_Nn)
+![Interface_of_booklist_widget](uploads/e9933b780c761ad0846482973d0b02f7/Interface_of_booklist_widget.png)
+
+
+### Adding books
+
+To add books:
+  - Convert the file into a markdown format. PDF files can be converted to markdown using [this tool](https://pdf2md.morethan.io/)
+  - Upload the file in [this Google Drive Folder](https://drive.google.com/drive/folders/15w1Q72DiUj7pskqKD0FYMElMhKUNx_Nn)
+  - share the book's cover image in PNG format with TJ Development Team (this is important because book's cover image is uploaded in a different assets folder at AWS)
+
+
+### How to use this widget
+
+Other than reading, one can select word(s), up to 4, so as to gain indepth knowledge. The word(s) selection triggers information prompts at Explore, ExploreDescription, TwitterComp, ThreeDModelViewer, WikiDataCard and WikiSnippet widgets.
+
 
 ### Other widgets, that work well with this
 
-- Selecting word(s) in the book triggers information prompts at Explore, ExploreDescription, TwitterComp, ThreeDModelViewer, WikiDataCard and WikiSnippet
+Selecting word(s), up to 4, triggers information prompts in these widgets:
+- [Explore](https://tj-dictionary.netlify.app/widgets/explore.html#explore)
+- G6Explore
+- ExploreDescription
+- TwitterComp
+- [ThreeDModelViewer](https://tj-dictionary.netlify.app/widgets/3d-viewer.html#threedmodelviewer)
+- [WikiDataCard](https://tj-dictionary.netlify.app/widgets/wikidata.html)
+- WikiSnippet
+
 
 ### Future Scope
 
 - Combine with the GutenbergBooks widget
-- Filter books (by genre, date added, author etc.)
-- Search box (to search within the book)
-- Recommended books
-- Users can add their books and share them with the public, people from their organization only or mark them private.
+- Filter options e.g, media type, genre, date added, author, topics, etc.
+- Review and commenting functionalities
+- Sorting options e.g, popularity, views available, title (a-z), date published, creator, etc.
+- Search box (to search books and within the book)
+- Recommendation engine for suggesting relevant books
+- Allow users to add their books and configure the visibility (private, organization and public are some of the options)
 - Mark books as 'to-read', 'interested-in' or 'favourite'
-- Marking the reading progress
-- Allowing readers to highlight text
-- Shows reviews from other readers
-- Allow readers to rate books
-- Supports .epub, .pdf and other such formats
+- Flag books
+- Reading progress bar
+- Text highlighter and annotation options
+- Rating books
+- Support books in epub, pdf and other digital book formats
+- Sharing option
+- Topics directory interface
+- Book reader
+- Bookmarking text, visuals or pages
+- Settings interface to personalise the view
+- Add assets
+- Related / similar books section
+- Different book list views and book reading view
+- Statistics
+- Vault
+- Show/hide book info
+- RSS feeds
