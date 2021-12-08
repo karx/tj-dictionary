@@ -21,66 +21,36 @@ export default {
               name: "Username",
               label: "Username",
               value: "",
-              validation: {
-                required: true,
-                minLength: 3,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
               name: "First Name",
               label: "First Name",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
               name: "Last Name",
               label: "Last Name",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
               name: "Email",
               label: "Email",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
               name: "Contact Number",
               label: "Contact Number",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
               name: "Emergency Contact",
               label: "Emergency Contact",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
             },
             {
               type: "group",
@@ -146,11 +116,6 @@ export default {
                   type: "text",
                   name: "alias",
                   value: "",
-                  validation: {
-                    required: true,
-                    minLength: 3,
-                    maxLength: 20,
-                  },
                 },
               ],
             },
@@ -158,21 +123,11 @@ export default {
               type: "text",
               name: "slogan",
               value: "",
-              validation: {
-                required: true,
-                minLength: 3,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
               name: "Status",
               value: "",
-              validation: {
-                required: true,
-                minLength: 3,
-                maxLength: 20,
-              },
             },
           ],
         },
@@ -185,7 +140,8 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
+@import "../../../node_modules/@braid/vue-formulate/themes/snow/snow.scss";
 .double-row {
   display: flex;
   flex-direction: row;

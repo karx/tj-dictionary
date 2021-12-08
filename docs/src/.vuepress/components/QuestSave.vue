@@ -10,125 +10,54 @@ export default {
       schema: [
         {
           component: "h3",
-          children: "User Creation",
+          children: "Quest Creation",
         },
         {
           type: "group",
-          name: "Primary Information",
+          name: "General Information",
           children: [
             {
               type: "text",
-              name: "Username",
-              label: "Username",
+              name: "title",
+              label: "title",
               value: "",
-              validation: {
-                required: true,
-                minLength: 3,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
-              name: "First Name",
-              label: "First Name",
+              name: "desc",
+              label: "desc",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
             },
             {
               type: "text",
-              name: "Last Name",
-              label: "Last Name",
+              name: "instructions",
+              label: "instructions",
               value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
-            },
-            {
-              type: "text",
-              name: "Email",
-              label: "Email",
-              value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
-            },
-            {
-              type: "text",
-              name: "Contact Number",
-              label: "Contact Number",
-              value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
-            },
-            {
-              type: "text",
-              name: "Emergency Contact",
-              label: "Emergency Contact",
-              value: "",
-              validation: {
-                required: true,
-                minLength: 6,
-                maxLength: 20,
-              },
-            },
-            {
-              type: "group",
-              repeatable: true,
-              name: "addresses",
-              addLabel: "+ Address",
-              children: [
-                {
-                  name: "street",
-                  label: "Street address",
-                },
-                {
-                  name: "city",
-                  label: "City",
-                },
-                {
-                  component: "div",
-                  class: "double-row",
-                  children: [
-                    {
-                      name: "state",
-                      type: "select",
-                      label: "State",
-                      options: {
-                        va: "Virginia",
-                        fl: "Florida",
-                        ne: "Nebraska",
-                        ca: "California",
-                      },
-                    },
-                    {
-                      name: "zip",
-                      label: "Zip",
-                    },
-                  ],
-                },
-              ],
             },
             {
               type: "file",
-              name: "Resume",
-              label: "Resume",
+              name: "image",
+              label: "image",
+              value: "",
+            },
+            {
+              type: "file",
+              name: "video",
+              label: "video",
+              value: "",
+            },
+            {
+              type: "text",
+              name: "who is it for",
+              label: "who is it for",
+              value: "",
             },
           ],
         },
         {
           type: "group",
-          name: "Avatar",
+          name: "Comments",
+          repeatable: true,
           children: [
             {
               type: "image",
@@ -137,42 +66,113 @@ export default {
               value: "",
             },
             {
-              type: "group",
-              repeatable: true,
-              name: "Alias",
-              addLabel: "+ alias",
-              children: [
-                {
-                  type: "text",
-                  name: "alias",
-                  value: "",
-                  validation: {
-                    required: true,
-                    minLength: 3,
-                    maxLength: 20,
-                  },
-                },
-              ],
+              type: "text",
+              name: "username",
+              label: "username",
+              value: "",
             },
             {
               type: "text",
-              name: "slogan",
+              name: "comment",
+              label: "comment",
               value: "",
-              validation: {
-                required: true,
-                minLength: 3,
-                maxLength: 20,
-              },
             },
+          ],
+        },
+        {
+          type: "text",
+          name: "Appearance",
+          label: "Appearance",
+          value: "",
+        },
+        {
+          type: "group",
+          name: "Required",
+          repeatable: true,
+          children: [
             {
               type: "text",
-              name: "Status",
+              name: "questid",
+              label: "questid",
               value: "",
-              validation: {
-                required: true,
-                minLength: 3,
-                maxLength: 20,
-              },
+            },
+          ],
+        },
+        {
+          type: "group",
+          name: "Criteria",
+          repeatable: true,
+          children: [
+            {
+              type: "text",
+              name: "Completion Rule",
+              label: "Completion Rule",
+              value: "",
+            },
+          ],
+        },
+        {
+          type: "group",
+          name: "Tags",
+          repeatable: true,
+          children: [
+            {
+              type: "text",
+              name: "tag",
+              label: "tag",
+              value: "",
+            },
+          ],
+        },
+        {
+          type: "group",
+          name: "Results",
+          repeatable: true,
+          children: [
+            {
+              type: "text",
+              name: "after completion rules",
+              label: "after completion rules",
+              value: "",
+            },
+          ],
+        },
+        {
+          type: "group",
+          name: "Milestones",
+          repeatable: true,
+          children: [
+            {
+              type: "text",
+              name: "MilestoneId",
+              label: "MilestoneId",
+              value: "",
+            },
+          ],
+        },
+        {
+          type: "group",
+          name: "Seeds Thoughts",
+          repeatable: true,
+          children: [
+            {
+              type: "text",
+              name: "thoughtid",
+              label: "thoughtid",
+              value: "",
+            },
+          ],
+        },
+        {
+          type: "group",
+          name: "Notifications",
+          repeatable: true,
+          children: [
+            {
+              type: "text",
+              name: "notification",
+              label: "notification",
+              value: "",
             },
           ],
         },
@@ -190,5 +190,9 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.formulate-input {
+  padding: 20px;
 }
 </style>

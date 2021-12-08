@@ -12,33 +12,18 @@
                 "name": "title",
                 "label": "title",
                 "value": "",
-                "validation": {
-                    "required": true,
-                    "minLength": 3,
-                    "maxLength": 20,
-                },
             },
             {
                 "type": "text",
                 "name": "desc",
                 "label": "desc",
                 "value": "",
-                "validation": {
-                    "required": true,
-                    "minLength": 6,
-                    "maxLength": 20,
-                },
             },
             {
                 "type": "text",
                 "name": "instructions",
                 "label": "instructions",
                 "value": "",
-                "validation": {
-                    "required": true,
-                    "minLength": 6,
-                    "maxLength": 20,
-                },
             },
             {
                 "type": "file",
@@ -57,11 +42,6 @@
                 "name": "who is it for",
                 "label": "who is it for",
                 "value": "",
-                "validation": {
-                    "required": true,
-                    "minLength": 6,
-                    "maxLength": 20,
-                },
             },
         ],
     },
@@ -81,22 +61,12 @@
                 "name": "username",
                 "label": "username",
                 "value": "",
-                "validation": {
-                    "required": true,
-                    "minLength": 3,
-                    "maxLength": 20,
-                },
             },
             {
                 "type": "text",
                 "name": "comment",
                 "label": "comment",
                 "value": "",
-                "validation": {
-                    "required": true,
-                    "minLength": 6,
-                    "maxLength": 200,
-                },
             },
         ],
     },
@@ -112,12 +82,10 @@
         "repeatable": true,
         "children": [
             {
-                {
-                    "type": "text",
-                    "name": "questid",
-                    "label": "questid",
-                    "value": "",
-                },
+                "type": "text",
+                "name": "questid",
+                "label": "questid",
+                "value": "",
             },
         ]
     },
@@ -127,12 +95,10 @@
         "repeatable": true,
         "children": [
             {
-                {
-                    "type": "text",
-                    "name": "Completion Rule",
-                    "label": "Completion Rule",
-                    "value": "",
-                },
+                "type": "text",
+                "name": "Completion Rule",
+                "label": "Completion Rule",
+                "value": "",
             },
         ]
     },
@@ -142,12 +108,10 @@
         "repeatable": true,
         "children": [
             {
-                {
-                    "type": "text",
-                    "name": "tag",
-                    "label": "tag",
-                    "value": "",
-                },
+                "type": "text",
+                "name": "tag",
+                "label": "tag",
+                "value": "",
             },
         ]
     },
@@ -157,13 +121,53 @@
         "repeatable": true,
         "children": [
             {
-                {
-                    "type": "text",
-                    "name": "after completion rules",
-                    "label": "after completion rules",
-                    "value": "",
-                },
+                "type": "text",
+                "name": "after completion rules",
+                "label": "after completion rules",
+                "value": "",
             },
         ]
     },
-],
+    {
+        "type": "group",
+        "name": "Milestones",
+        "repeatable": true,
+        "children": [
+            {
+                "type": "text",
+                "name": "MilestoneId",
+                "label": "MilestoneId",
+                "value": "",
+            },
+        ]
+    },
+    {
+        "type": "group",
+        "name": "Seeds Thoughts",
+        "repeatable": true,
+        "children": [
+            {
+                "type": "text",
+                "name": "thoughtid",
+                "label": "thoughtid",
+                "value": "",
+            },
+        ]
+    },
+    {
+        "type": "group",
+        "name": "Notifications",
+        "repeatable": true,
+        "children": [
+            {
+                "type": "text",
+                "name": "notification",
+                "label": "notification",
+                "value": "",
+            },
+        ]
+    },
+    {
+        "type": "submit",
+    },
+]
