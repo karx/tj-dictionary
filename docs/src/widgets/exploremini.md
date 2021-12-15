@@ -8,7 +8,7 @@ tags:
     - Widget
 ---
 
-## Explore
+## Explore Mini
 
 ### About this Widget
 
@@ -18,17 +18,17 @@ tags:
 
 ### How to use this Widget
  
-- Select any word by clicking twice on it to trigger the Explore widget, or
+- Select any word by clicking twice on it to trigger the Explore Mini widget, or
 - Type a keyword in the Search bar, or
 - Select a word form the word cloud to jump around and explore
 
 
 ### Other widgets, that work well with this
 
-- ExploreDescription
-  - shows information from WIkipedia on the selected topic/word/phrase
+- Description
+  - shows information from Wikipedia on the selected topic/word/phrase
 
-- Selecting word(s) updates TwitterComp, ThreeDModelViewer, WikiDataCard and WikiSnippet
+- Selecting word(s) updates Twitter Feed, ThreeDModelViewer, Info Items and Information Snippet
 
 
 ### Future Scope
