@@ -1,6 +1,6 @@
 ## Notes widget
 
-The NotedItems widget shows the saved and drafted thoughts in a list format. It has a markdown-powered text editor for writing thoughts using basic HTML tags. To save useful information from external web pages like - text, image, and video, boost-ed extension will need to be installed.
+The Notes widget shows the saved and drafted thoughts in a list format. It has a markdown-powered text editor for writing thoughts using basic HTML tags. To save useful information from external web pages like - text, image, and video, boost-ed extension will need to be installed.
 
 
 ### Interface
