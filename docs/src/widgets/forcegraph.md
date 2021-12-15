@@ -7,6 +7,9 @@ tags:
     - Data Vizualization
     - Graph
     - Widget
+vue-component: 
+    - ForceGraphAlt
+    - ForceGraphController
 ---
 # Force graph widget
 
