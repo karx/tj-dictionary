@@ -8,9 +8,9 @@ tags:
 ---
 
 
-## Book List
+## Library
 
-The BookList widget lists a collection of books, each converted in markdown format for efficient machine-readability.
+The Library widget lists a collection of books, each converted in markdown format for efficient machine-readability.
 
 
 ### Interface
@@ -45,7 +45,7 @@ Selecting word(s), up to 4, triggers information prompts in these widgets:
 
 ### Future?
 
-- Combine with the GutenbergBooks widget
+- Combine with the Gutenberg Library widget
 - Filter options e.g, media type, genre, date added, author, topics, etc.
 - Review, like and commenting functionalities
 - Sorting options e.g, popularity, views available, title (a-z), date published, creator, etc.
