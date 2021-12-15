@@ -100,12 +100,12 @@ module.exports = async () => {
             children: [
               '',
               '3d-viewer',
-              'books',
-              'explore',
+              'library',
+              'explore_mini',
               'forcegraph',
               'notes',
               'Search',
-              'wikidata',
+              'info_items',
               'wolframalpha'
             ]
           }
