@@ -7,7 +7,7 @@ tags:
     - Graph
     - Widget
 ---
-## TwitterComp
+## Twitter Feed
 
 ### About this Widget
 
