@@ -52,6 +52,10 @@ module.exports = async () => {
           link: '/widgets/'
         },
         {
+          text: 'Brand',
+          link: '/brand/'
+        },
+        {
           text: 'Thought Jumper',
           link: 'https://thoughtjumper-client.netlify.app/'
         }
