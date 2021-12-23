@@ -3,6 +3,7 @@ build site:
   image: node:6
   stage: build
   script:
+    - cd docs
     - npm install --progress=false
     - npm run build
   artifacts:
