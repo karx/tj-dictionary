@@ -105,7 +105,7 @@ module.exports = async () => {
               '',
               '3d-viewer',
               'library',
-              'explore_mini',
+              'exploremini',
               'forcegraph',
               'notes',
               'Search',
