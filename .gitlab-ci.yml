@@ -19,4 +19,4 @@ deploy:
     - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_dsa
     - chmod 600 ~/.ssh/id_dsa
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-    - rsync -rav --delete dist/ gitlab@neo4jstg.edvantalabs.com:/home/gitlab/bin/
+    - rsync -e "ssh -p 768" -rav --delete dist/ gitlab@neo4jstg.edvantalabs.com:/home/gitlab/bin/
