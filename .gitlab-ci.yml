@@ -1,6 +1,5 @@
 build site:
-  
-  image: node:6
+  image: node:14.16.0
   stage: build
   script:
     - cd docs
@@ -10,7 +9,7 @@ build site:
     expire_in: 1 week
     paths:
       - dist
-      
+
 deploy:
   image: alpine
   stage: deploy
