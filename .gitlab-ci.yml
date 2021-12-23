@@ -10,14 +10,7 @@ build site:
     expire_in: 1 week
     paths:
       - dist
-
-unit test:
-  image: node:6
-  stage: test
-  script:
-    - npm install --progress=false
-    - npm run unit
-
+      
 deploy:
   image: alpine
   stage: deploy
