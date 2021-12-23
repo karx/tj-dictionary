@@ -8,7 +8,7 @@ build site:
   artifacts:
     expire_in: 1 week
     paths:
-      - dist
+      - docs/src/.vuepress/dist
 
 
 deploy:
