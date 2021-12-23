@@ -24,4 +24,4 @@ deploy:
     - ls docs/
     - ls docs/src/.vuepress
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-    - rsync -e "ssh -p 768" -rav --delete docs/src/.vuepress/dist gitlab@neo4jstg.edvantalabs.com:/home/gitlab/bin/
+    - rsync -e "ssh -p 768" -rav --delete docs/src/.vuepress/dist gitlab@neo4jstg.edvantalabs.com:/home/gitlab/bin/tj-dictionary/
