@@ -20,8 +20,5 @@ deploy:
     - echo "$SSH_PRIVATE_KEY"
     - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_dsa
     - chmod 600 ~/.ssh/id_dsa
-    - ls
-    - ls docs/
-    - ls docs/src/.vuepress
     - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
     - rsync -e "ssh -p 768" -rav --delete docs/src/.vuepress/dist gitlab@neo4jstg.edvantalabs.com:/home/gitlab/bin/tj-dictionary/

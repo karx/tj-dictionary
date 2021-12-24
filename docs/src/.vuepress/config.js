@@ -56,9 +56,13 @@ module.exports = async () => {
           link: '/brand/'
         },
         {
+          text: 'Stories',
+          link: '/stories/',
+        },
+        {
           text: 'Thought Jumper',
           link: 'https://thoughtjumper-client.netlify.app/'
-        }
+        },
       ],
       sidebar: {
         '/guide/': [
@@ -111,6 +115,18 @@ module.exports = async () => {
               'Search',
               'info_items',
               'wolframalpha'
+            ]
+          }
+        ],
+        '/stories/': [
+          {
+            title: 'Stories & Use-cases',
+            collapsable: false,
+            children: [
+              '',
+              'invitation',
+              'registration',
+              'thought-map',
             ]
           }
         ],
