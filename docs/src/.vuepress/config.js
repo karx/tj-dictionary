@@ -120,8 +120,8 @@ module.exports = async () => {
             collapsable: false,
             children: [
               '',
-              'thought-map',
               'invitation',
+              'thought-map',
             ]
           }
         ],
