@@ -121,6 +121,7 @@ module.exports = async () => {
             children: [
               '',
               'invitation',
+              'registration',
               'thought-map',
             ]
           }
