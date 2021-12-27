@@ -122,6 +122,7 @@ module.exports = async () => {
               '',
               'invitation',
               'registration',
+              'authentication',
               'thought-map',
             ]
           }
