@@ -1,8 +1,10 @@
 <template>
-  <FormulateForm v-model="values" :schema="schema" />
+  <FormulateForm v-model="values" :schema="schema" @submit="submitHandler" />
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   data() {
     return {
@@ -14,7 +16,8 @@ export default {
         },
         {
           type: "group",
-          name: "General Information",
+          name: "general_information",
+          label: "General Information",
           children: [
             {
               type: "text",
@@ -56,7 +59,8 @@ export default {
         },
         {
           type: "group",
-          name: "Comments",
+          name: "comments",
+          label: "Comments",
           repeatable: true,
           children: [
             {
@@ -81,13 +85,14 @@ export default {
         },
         {
           type: "text",
-          name: "Appearance",
+          name: "appearance",
           label: "Appearance",
           value: "",
         },
         {
           type: "group",
-          name: "Required",
+          name: "required",
+          label: "Required",
           repeatable: true,
           children: [
             {
@@ -100,7 +105,8 @@ export default {
         },
         {
           type: "group",
-          name: "Criteria",
+          name: "criteria",
+          label: "Criteria",
           repeatable: true,
           children: [
             {
@@ -113,7 +119,8 @@ export default {
         },
         {
           type: "group",
-          name: "Tags",
+          name: "tags",
+          label: "Tags",
           repeatable: true,
           children: [
             {
@@ -126,7 +133,8 @@ export default {
         },
         {
           type: "group",
-          name: "Results",
+          name: "results",
+          label: "Results",
           repeatable: true,
           children: [
             {
@@ -139,7 +147,8 @@ export default {
         },
         {
           type: "group",
-          name: "Milestones",
+          name: "milestones",
+          label: "Milestones",
           repeatable: true,
           children: [
             {
@@ -152,7 +161,8 @@ export default {
         },
         {
           type: "group",
-          name: "Seeds Thoughts",
+          name: "seeds_thoughts",
+          label: "Seeds Thoughts",
           repeatable: true,
           children: [
             {
@@ -165,7 +175,8 @@ export default {
         },
         {
           type: "group",
-          name: "Notifications",
+          name: "notifications",
+          lame: "Notifications",
           repeatable: true,
           children: [
             {
@@ -181,6 +192,17 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    async submitHandler(data) {
+      axios
+        .post("http://localhost:3000/api/v1/quests", { ...data })
+        .then((res) => console.log(res))
+        .then(() => this.$router.push("/"))
+        .catch((err) => console.log(err));
+      // await this.$axios.post("/my/api", data);
+      console.log({ data });
+    },
   },
 };
 </script>
