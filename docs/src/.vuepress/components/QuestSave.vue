@@ -207,14 +207,6 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
-.double-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.formulate-input {
-  padding: 20px;
-}
+<style lang="scss">
+@import "./snow.scss";
 </style>
