@@ -196,7 +196,7 @@ export default {
   methods: {
     async submitHandler(data) {
       axios
-        .post("http://localhost:3000/api/v1/quests", { ...data })
+        .post("https://thoughtjumper.edvanta.com/api/v1/quests", { ...data })
         .then((res) => console.log(res))
         .then(() => this.$router.push("/"))
         .catch((err) => console.log(err));
