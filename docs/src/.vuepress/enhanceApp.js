@@ -5,6 +5,7 @@
  */
 import Vuex from 'vuex';
 import store from '../../store/index'
+import VueFormulate from '@braid/vue-formulate';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -14,5 +15,6 @@ export default ({
 }) => {
   // ...apply enhancements for the site.
   Vue.use(Vuex),
-  Vue.mixin({store: store});
+    Vue.mixin({ store: store });
+  Vue.use(VueFormulate);
 }
