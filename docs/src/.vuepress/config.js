@@ -131,6 +131,16 @@ module.exports = async () => {
             ]
           }
         ],
+        '/brand/': [
+          {
+            title: 'Branding & Design',
+            collapsable: false,
+            children: [
+              '',
+              'thought-jumper',
+            ]
+          }
+        ],
       }
     },
 
