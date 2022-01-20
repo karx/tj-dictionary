@@ -52,6 +52,10 @@ module.exports = async () => {
           link: '/widgets/'
         },
         {
+          text: 'Brand',
+          link: '/brand/'
+        },
+        {
           text: 'Stories',
           link: '/stories/',
         },
